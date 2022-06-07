@@ -18,7 +18,7 @@
         <script src='https://js.stripe.com/v2/' type='text/javascript'></script>
         <form accept-charset="UTF-8" action="/" class="require-validation"
           data-cc-on-file="false"
-          data-stripe-publishable-key="pk_test_51HJ261HEKXuyg5UVyzHzcZrhg3GtY2RkF3DGMv1U1wn8vClpTK5DjA3SePALYqOjlUi4DBbjVmC94azZnDodXczV00RINRMY6R"
+          data-stripe-publishable-key="Enter your Stripe Key"
           id="payment-form" method="post">
           @csrf
           <div class='form-row'>
