@@ -14,7 +14,7 @@ class StripeController extends Controller
 //
 
     public function call(Request $request) {
-        \Stripe\Stripe::setApiKey('sk_test_51HJ261HEKXuyg5UVmJdjcvvbRnunxz0Tw259wrc1KGzpd8oysJJYn0XhbBU2FoiNHKYsKlKVGTfVtrlJSv35L7ML002HgkSIyw');
+        \Stripe\Stripe::setApiKey('enter your stripe key');
         $customer = \Stripe\Customer::Create(array(
           'name' => 'test',
           'description' => 'test description',
